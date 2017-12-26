@@ -1,3 +1,3 @@
 # Puppy-Health-Monitoring-App
 
-Mobile Android App Built in Collaboration with Martin Deng, Steven Zhang, and Noah Weiner
+Mobile Android App Developers: Nathan Guo, Martin Deng, Steven Zhang, and Noah Weiner
