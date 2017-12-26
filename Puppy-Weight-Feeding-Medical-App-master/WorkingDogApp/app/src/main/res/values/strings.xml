@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">WorkingDogApp</string>
+    <string name="age">Age:</string>
+    <string name="breed">Breed:</string>
+    <string name="body_score">Body Score:</string>
+    <string name="amount_of_food">Cups of Food Per Meal:</string>
+    <string name="feeder_type">Feeder Type:</string>
+    <string name="food_type">Food Type:</string>
+    <string name="food_restrictions">Food Restrictions:</string>
+    <string name="meals">Number of Meals Per Day: </string>
+    <string name="allergies">Allergies:</string>
+    <string name="weight">Weight (in lbs)</string>
+    <string name="fish_oil">Fish Oil?</string>
+
+    <string-array name="dog_names">
+        <item>Spot</item>
+        <item>Rover</item>
+        <item>Wombo</item>
+        <item>Bailey</item>
+        <item>Max</item>
+        <item>Charlie</item>
+        <item>Buddy</item>
+        <item>Bella</item>
+        <item>Lucy</item>
+        <item>Molly</item>
+        <item>Daisy</item>
+    </string-array>
+
+    <string-array name="planets_array">
+        <item>Login</item>
+        <item>Logout</item>
+        <item>Change Password</item>
+        <item>Check Archives</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+
+</resources>
+

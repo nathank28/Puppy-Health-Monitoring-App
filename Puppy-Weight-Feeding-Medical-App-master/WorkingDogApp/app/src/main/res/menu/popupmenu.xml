@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Add Dog"
+        android:id="@+id/add_dog"
+        android:icon="@drawable/ic_add_black_24dp"
+        app:showAsAction="always"/>
+    <item android:title="Settings"
+        android:id="@+id/settingsOption" />
+    <item android:title="Export to Downloads"
+        android:id="@+id/export"/>
+    <item android:title="Export to Email"
+        android:id="@+id/email"/>
+</menu>

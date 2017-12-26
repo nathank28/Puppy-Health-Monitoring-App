@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="?android:attr/alertDialogIcon"
+                android:id="@+id/imageView"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false" />
+
+            <TextView
+                android:text="This icon means that the dog hasn't been weighed in or checked in 3+ days."
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:id="@+id/textView2"
+                android:textAlignment="viewStart"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:text="A yellow highlight indicates an unsatisfactory body score."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/dogListSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/dogList"
+        android:name="edu.upenn.cis350.workingdogapp.DogFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:layoutManager="LinearLayoutManager"
+        tools:context="edu.upenn.cis350.workingdogapp.DogSelectFragment"
+        tools:listitem="@layout/fragment_dog" >
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

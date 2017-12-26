@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string
+    name="hello">Welcome!
+    </string>
+    
+    <string
+        name="buttontext_feedback">Start Morning Check-In Form
+    </string>
+    <string
+        name="feedbacktitle">Please enter in information about your dog.
+    </string>
+
+    <string
+        name="feedbackname">Your Name</string>
+    <string
+        name="feedbackemail">Please enter weight</string>
+    <string
+        name="feedbacktype">Enter feedback type...</string>
+
+    <string
+        name="feedbacktype1">Pounds</string>
+    <string
+        name="feedbacktype2">Kilograms</string>
+    <string
+        name="feedbackbody">Please leave any comments about the dog...</string>
+    <string
+        name="feedbackresponse">Did the dog eat breakfast?</string>
+    <string
+        name="feedbackbutton">Submit</string>
+
+
+
+</resources>

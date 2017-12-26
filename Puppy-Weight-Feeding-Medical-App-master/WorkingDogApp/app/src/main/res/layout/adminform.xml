@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView02"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feedbackcrown"
+            android:textSize="10pt" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Foster Parent:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/parentNameTitle"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
+
+            <EditText
+                android:id="@+id/EditParentName"
+                android:layout_height="wrap_content"
+                android:hint="@string/feedbackadminname"
+                android:inputType="textPersonName"
+                android:layout_width="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <TextView
+                android:text="@string/age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ageTitle"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"/>
+
+            <EditText
+                android:id="@+id/EditAge"
+                android:layout_height="wrap_content"
+                android:hint="@string/feedbackdogage"
+                android:inputType="textPersonName"
+                android:layout_width="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/breed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/breedNameTitle"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
+
+            <EditText
+                android:id="@+id/EditBreedName"
+                android:layout_height="wrap_content"
+                android:hint="@string/feedbackdogbreed"
+                android:inputType="textPersonName"
+                android:layout_width="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/body_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bodyScoreTitle"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"/>
+
+            <EditText
+                android:id="@+id/EditBodyScore"
+                android:layout_height="wrap_content"
+                android:hint="@string/feedbackbodyscore"
+                android:inputType="numberDecimal"
+                android:layout_width="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/amount_of_food"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/amountFeedTitle"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
+
+            <EditText
+                android:id="@+id/EditAmountFeed"
+                android:layout_height="wrap_content"
+                android:hint="@string/feedbackamountfeed"
+                android:inputType="numberDecimal"
+                android:layout_width="fill_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/feeder_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/feedTypeTitle"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
+
+            <EditText
+                android:id="@+id/EditFeedType"
+                android:layout_height="wrap_content"
+                android:hint="@string/feedbackfeedertype"
+                android:inputType="textPersonName"
+                android:layout_width="fill_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/food_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/foodTitle"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
+
+            <EditText
+                android:id="@+id/EditFood"
+                android:layout_height="wrap_content"
+                android:hint="@string/feedbackfood"
+                android:inputType="textPersonName"
+                android:layout_width="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/food_restrictions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/treatsTitle"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
+
+            <EditText
+                android:id="@+id/EditTreats"
+                android:layout_height="wrap_content"
+                android:hint="@string/feedbacktreats"
+                android:inputType="textPersonName"
+                android:layout_width="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/meals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mealsTitle"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
+
+            <EditText
+                android:id="@+id/Editmeals"
+                android:layout_height="wrap_content"
+                android:hint="@string/feedbackmeals"
+                android:inputType="textPersonName"
+                android:layout_width="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/allergies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/allergiesTitle"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
+
+            <EditText
+                android:id="@+id/EditAllergies"
+                android:layout_height="wrap_content"
+                android:hint="@string/feedbackallergies"
+                android:inputType="textPersonName"
+                android:layout_width="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/weightTitle"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
+
+            <EditText
+                android:id="@+id/EditTextWeight"
+                android:layout_height="wrap_content"
+                android:hint="@string/feedbackweight"
+                android:inputType="numberDecimal"
+                android:layout_width="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/fish_oil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fishOilTitle"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/FishOilGroup">
+
+
+                <RadioButton
+                    android:text="Yes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/FishOilYes"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:text="No"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/FishOilNo"
+                    android:layout_weight="1" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/SpinnerFeedbackType"
+            android:layout_height="wrap_content"
+            android:prompt="@string/feedbackspun"
+            android:layout_width="fill_parent"
+            android:entries="@array/feedbacktypelist" />
+
+        <EditText
+            android:id="@+id/EditTextFeedbackBody"
+            android:layout_height="wrap_content"
+            android:hint="@string/feedbackcomments"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:layout_width="fill_parent" />
+
+        <Button
+            android:id="@+id/ButtonSendFeedback"
+            android:layout_height="wrap_content"
+            android:text="@string/feedbacksend"
+            android:onClick="sendFeedback"
+            android:layout_width="fill_parent" />
+
+    </LinearLayout>
+</ScrollView>

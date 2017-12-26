@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string
+    name="welcome">Welcome Admin!
+    </string>
+
+    <string
+        name="buttontext_admin">Admin Editing Capabilities
+    </string>
+    <string
+        name="feedbackcrown">Please enter in information about your dog.
+    </string>
+
+    <string
+        name="feedbackdogname">Dog Name</string>
+    <string
+        name="feedbackadminname">Foster Parent Name</string>
+
+    <string
+        name="feedbackdogbreed">Dog Breed</string>
+
+    <string
+        name="feedbackdogage">Dog Age</string>
+
+    <string
+        name="feedbackweight">Dog Weight</string>
+    <string
+        name="feedbackspun">Enter feedback type...</string>
+
+    <string
+        name="feedbackopt1">Pounds</string>
+    <string
+        name="feedbackopt2">Kilograms</string>
+
+    <string
+        name="feedbackbodyscore">Dog Body Score</string>
+
+    <string
+        name="feedbackamountfeed">Cups of Food Per Meal</string>
+
+    <string
+        name="feedbackmeals">Meals Per Day</string>
+
+    <string
+        name="feedbackfeedertype">Dog Feeder Type</string>
+
+    <string
+        name="feedbackfood">Dog Food Type</string>
+
+    <string
+        name="feedbacktreats">Dog Treat Restrictions</string>
+
+    <string
+        name="feedbackallergies">Dog Allergies</string>
+
+    <string
+        name="feedbackcomments">Please leave any comments about the dog...</string>
+    <string
+        name="feedbackreply">Did the dog eat breakfast?</string>
+    <string
+        name="feedbacksend">Submit</string>
+
+
+
+</resources>

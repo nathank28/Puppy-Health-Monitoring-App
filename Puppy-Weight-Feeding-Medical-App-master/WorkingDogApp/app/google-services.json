@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1094658552902",
+    "firebase_url": "https://workingdogapp.firebaseio.com",
+    "project_id": "workingdogapp",
+    "storage_bucket": "workingdogapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094658552902:android:4704ec559a45fdb8",
+        "android_client_info": {
+          "package_name": "edu.upenn.cis350.workingdogapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094658552902-q5e6aseagejoheck2dtnksrca1kjsadn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE56ISHW1AON8aC3Cacx8BC79G8EbdxAI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
